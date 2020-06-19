@@ -1,0 +1,12 @@
+<div class="list-group">
+        <div class="d-flex w-100 justify-content-between">
+            <h5 class="mb-2"><b>{{post.title}}</b></h5>
+            
+        </div>
+        <div><hr class="new2"></div>
+        <p class="mb-1">{{post.description}}</p>
+        <div *ngIf="globalDataService.loggedUser"><button type="button" (click)="removePost(post.id)" class="btn btn-secondary">Usuń</button>
+        <button type="button" [routerLink]="'/'" class="btn btn-secondary ">Powrót</button></div>
+
+</div>
+<hr class="clearfix w-100 d-md-none"> 

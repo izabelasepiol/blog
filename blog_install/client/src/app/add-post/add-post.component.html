@@ -1,0 +1,14 @@
+<form>
+    <div class="form-group">
+        <label for="exampleInputTitle"><h6 class="font-weight-bold">Tytuł</h6></label>
+        <input name="title" type="text" [(ngModel)]="post.title" class="form-control" id="exampleInputTitle"
+            aria-describedby="emailHelp" placeholder="Dodaj tytuł">
+    </div>
+    <div class="form-group">
+        <label for="exampleInputDescription "><h6 class="font-weight-bold">Treść</h6></label>
+        <textarea name="description" [(ngModel)]="post.description" class="form-control" id="exampleInputDescription"
+            placeholder="Dodaj treść">
+                        </textarea>
+    </div><div class="d-flex justify-content-center">
+    <button (click)="addPost()" type="button" class="btn btn-outline-dark my-2 ">Dodaj</button></div>
+</form><br><Br>

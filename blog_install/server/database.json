@@ -1,0 +1,32 @@
+{
+  "post": [
+    {
+      "title": "this is first post ",
+      "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Blanditiis perferendis pariatur laboriosam culpa, deserunt neque reiciendis ratione iste, eius deleniti dicta. Necessitatibus, inventore. Atque sunt et, alias ut veritatis tempore!. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Blanditiis perferendis pariatur laboriosam culpa, deserunt neque reiciendis ratione iste, eius deleniti dicta. Necessitatibus, inventore. Atque sunt et, alias ut veritatis tempore!.",
+      "id": 1
+    },
+    {
+      "title": "this is second post ",
+      "description": "this is second post this is second post this is second post this is second post this is second post this is second post this is second post this is second post this is second post this is second post this is second post this is second post this is second post this is second post this is second post this is second post this is second post this is second post this is second post this is second post this is second post this is second post this is second post this is second post this is second post this is second post this is second post this is second post this is second post this is second post this is second post this is second post this is second post this is second post this is second post ",
+      "id": 2
+    },
+    {
+      "title": "this is a 3rd post for more than 700 signs ",
+      "description": "this is a 3rd post for more then 700 signs this is a 3rd post for more then 700 signs this is a 3rd post for more then 700 signs this is a 3rd post for more then 700 signs this is a 3rd post for more then 700 signs this is a 3rd post for more then 700 signs this is a 3rd post for more then 700 signs this is a 3rd post for more then 700 signs this is a 3rd post for more then 700 signs this is a 3rd post for more then 700 signs this is a 3rd post for more then 700 signs this is a 3rd post for more then 700 signs this is a 3rd post for more then 700 signs this is a 3rd post for more then 700 signs this is a 3rd post for more then 700 signs this is a 3rd post for more then 700 signs this is a 3rd post for more then 700 signs this is a 3rd post for more then 700 signs this is a 3rd post for more then 700 signs this is a 3rd post for more then 700 signs this is a 3rd post for more then 700 signs this is a 3rd post for more then 700 signs this is a 3rd post for more then 700 signs this is a 3rd post for more then 700 signs ",
+      "id": 3
+    },
+    {
+      "title": "czwarty post",
+      "description": "this is the next post this is the next post this is the next post this is the next post this is the next post this is the next post this is the next post this is the next post this is the next post this is the next post this is the next post this is the next post this is the next post this is the next post this is the next post this is the next post this is the next post this is the next post this is the next post this is the next post this is the next post ",
+      "id": 4
+    }
+  ],
+  "user": [
+    {
+      "id": 1,
+      "username": "admin",
+      "password": "admin1",
+      "name": "Admin"
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+
+  
+<form class="form-signin">
+  <h2 class="form-signin-heading text-center">Zaloguj się </h2>
+  <label for="inputEmail" class="sr-only">Login</label>
+  <input name="email" [(ngModel)]="user.username" type="email" id="inputEmail" class="form-control"
+    placeholder="Login" required autofocus>
+  <label for="inputPassword" class="sr-only">Password</label>
+  <input name="password" [(ngModel)]="user.password" type="password" id="inputPassword" class="form-control"
+    placeholder="Hasło" required>
+  <button class="btn btn-lg btn-outline-dark my-2  btn-block" (click)="validateLogin();" type="submit">Zaloguj</button>
+</form>

@@ -1,0 +1,26 @@
+<div class="list-group">
+    <div *ngFor="let post of globalDataService.posts" href="#"
+        class="list-group-item list-group-item-action flex-column align-items-start">
+        <div class="d-flex w-100 justify-content-between">
+            <h5 class="mb-2"><b>{{post.title}}</b></h5>
+
+        </div>
+
+        <hr class="new2">
+
+        <div *ngIf="post.description.length > 700; then thenBlock else elseBlock"></div>
+        <ng-template #thenBlock>
+            <p class="mb-1">{{post.description.substring(0,700)}}...</p>
+            <div><button type="button" [routerLink]="['/post/', post.id]" class="btn btn-secondary">Czytaj
+                    dalej</button></div>
+        </ng-template>
+        <ng-template #elseBlock>
+            <p class="mb-1">{{post.description}}</p>
+        </ng-template>
+
+
+        <div *ngIf="globalDataService.loggedUser"><button type="button" (click)="removePost(post.id)"
+                class="btn btn-secondary">Usuń</button></div>
+    </div>
+</div>
+<hr class="clearfix w-100 d-md-none">

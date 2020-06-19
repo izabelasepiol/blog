@@ -1,0 +1,13 @@
+.btn.btn-secondary {
+    
+    padding-left: 55px;
+    padding-right: 55px;
+    margin-top: 10px;
+    float: right;
+    margin-right: 11px;
+    border-radius: 0.5rem;
+}
+
+.d-flex.w-100.justify-content-between {
+    margin: 2px;
+}
